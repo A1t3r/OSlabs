@@ -138,7 +138,6 @@ for(;;) {
                     write(fd2,newtoexec[i],strlen(newtoexec[i])); 
                      sem_post(&sem1);
                      execve(newtoexec[i], newpar[i],NULL);
-exit(0);
               }
               if(testpid > 0) {
                      flag = 0;
