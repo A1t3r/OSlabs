@@ -118,7 +118,7 @@ int Daemon(char*path[]){
     dup2(fd, 1);
 
   // const char *semname="/semname";
-   sem_init(&sem1, 0,0);
+   sem_init(&sem1, 0, 0);
    sem_post(&sem1);
   // sem1 = sem_open(semname,O_CREAT);//|O_EXCL);
   // sem_wait(&sem1);
@@ -134,8 +134,8 @@ for(;;) {
              testpid = fork();
              if(testpid==0) {
                      sem_wait(&sem1);
-                    write(fd2,"\n NOW WORKING: \n",13);
-                    write(fd2,newtoexec[i],strlen(newtoexec[i])); 
+                     write(fd2,"\n NOW WORKING: \n",13);
+                     write(fd2,newtoexec[i],strlen(newtoexec[i])); 
                      sem_post(&sem1);
                      execve(newtoexec[i], newpar[i],NULL);
               }
