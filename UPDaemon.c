@@ -17,11 +17,11 @@ int Dflag = 0;
 void sigalarm_handler(int fd){
 flag=1;
 }
-
+/*
 void term_handler(int fd){
 Dflag=1;
 }
-
+*/
 int Daemon(char*path[]){
     signal(SIGALRM,sigalarm_handler);
     signal(SIGTERM,term_handler);
@@ -145,12 +145,13 @@ for(;;) {
 
           }
       }
+    /*
     if(Dflag==1){
      close(fd);
      close(fd2);
      sem_destroy(&sem1);
      exit(0);
-}
+}*/
 }
     //close(fd);
 }
