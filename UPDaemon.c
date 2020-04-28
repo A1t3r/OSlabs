@@ -24,7 +24,7 @@ Dflag=1;
 */
 int Daemon(char*path[]){
     signal(SIGALRM,sigalarm_handler);
-    signal(SIGTERM,term_handler);
+    //signal(SIGTERM,term_handler);
     int fd;
     char buf[256]={};
     fd = open(path[1],O_CREAT|O_RDWR,S_IRWXU);
