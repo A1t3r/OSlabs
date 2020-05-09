@@ -1,0 +1,52 @@
+total 36
+-rw-r--r-- 1 anton anton     8 May  7 16:34 README.md
+-rw-r--r-- 1 anton anton  4319 May  9 17:59 UPDaemon.c
+-rw-r--r-- 1 anton anton    57 May  9 17:03 UPdem.txt
+-rwx------ 1 anton anton     0 May  9 17:39 UPdemEXECVEOUT.txt
+-rwx------ 1 anton anton    22 May  9 18:00 UPdemLOG.txt
+-rwxr-xr-x 1 anton anton 13536 May  9 18:00 UPdemon
+/home/anton/Desktop/test/OSlabs
+/home/anton/Desktop/test/OSlabs
+README.md
+UPDaemon.c
+UPdem.txt
+UPdemEXECVEOUT.txt
+UPdemLOG.txt
+UPdemon
+/home/anton/Desktop/test/OSlabs
+  PID TTY      STAT   TIME COMMAND
+ 1851 tty2     Rl+    1:28 /usr/bin/gnome-shell
+total 40
+-rw-r--r-- 1 anton anton     8 May  7 16:34 README.md
+-rw-r--r-- 1 anton anton  4319 May  9 17:59 UPDaemon.c
+-rw-r--r-- 1 anton anton    57 May  9 17:03 UPdem.txt
+-rwx------ 1 anton anton   594 May  9 18:00 UPdemEXECVEOUT.txt
+-rwx------ 1 anton anton   157 May  9 18:00 UPdemLOG.txt
+-rwxr-xr-x 1 anton anton 13536 May  9 18:00 UPdemon
+/home/anton/Desktop/test/OSlabs
+/home/anton/Desktop/test/OSlabs
+README.md
+UPDaemon.c
+UPdem.txt
+UPdemEXECVEOUT.txt
+UPdemLOG.txt
+UPdemon
+/home/anton/Desktop/test/OSlabs
+  PID TTY      STAT   TIME COMMAND
+total 40
+-rw-r--r-- 1 anton anton     8 May  7 16:34 README.md
+-rw-r--r-- 1 anton anton  4319 May  9 17:59 UPDaemon.c
+-rw-r--r-- 1 anton anton    57 May  9 17:03 UPdem.txt
+-rwx------ 1 anton anton  1140 May  9 18:00 UPdemEXECVEOUT.txt
+-rwx------ 1 anton anton   292 May  9 18:00 UPdemLOG.txt
+-rwxr-xr-x 1 anton anton 13536 May  9 18:00 UPdemon
+/home/anton/Desktop/test/OSlabs
+/home/anton/Desktop/test/OSlabs
+README.md
+UPDaemon.c
+UPdem.txt
+UPdemEXECVEOUT.txt
+UPdemLOG.txt
+UPdemon
+/home/anton/Desktop/test/OSlabs
+  PID TTY      STAT   TIME COMMAND

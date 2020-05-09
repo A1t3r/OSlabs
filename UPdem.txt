@@ -1,17 +1,6 @@
 /bin/ls -l
-/bin/ps
+/bin/pwd
+/bin/pwd
+/bin/ls
 /bin/pwd
 /bin/ps -r
-/bin/pwd
-/bin/ps
-/bin/pwd
-/bin/pwd
-/bin/pwd
-/bin/pwd
-/bin/ps
-/bin/ps
-/bin/pwd
-/bin/pwd
-/bin/pwd
-/bin/pwd
-/bin/pwd
