@@ -1,6 +1,3 @@
+/bin/ps -r
 /bin/ls -l
 /bin/pwd
-/bin/pwd
-/bin/ls
-/bin/pwd
-/bin/ps -r
