@@ -52,3 +52,123 @@
  NOW WORKING:/bin/ls
 
  NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ls
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/pwd
+
+ NOW WORKING:/bin/ps
+
+ NOW WORKING:/bin/pwd

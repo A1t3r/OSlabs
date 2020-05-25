@@ -14,7 +14,7 @@
 #include <sys/socket.h>
 #include <sys/un.h>
 
-//sem_t* sem1;
+sem_t* sem1;
 int flag = 0;
 int Dflag = 0;
 
@@ -26,14 +26,18 @@ void term_handler(){
 Dflag=1;
 }
 
+void schild_handler(){
+ int status=0;
+ wait(&status);
+ sem_post(sem1);
+}
+
 int Daemon(char*path[]){
     signal(SIGALRM,sigalarm_handler);
     signal(SIGTERM,term_handler);
-
-  const char *semname="/semname";
-   //sem_init(&sem1, 0, 0);
-   //sem_post(&sem1);
-   sem_t* sem1 = sem_open(semname,O_CREAT);//|O_EXCL);
+    signal(SIGCHLD,schild_handler);
+   const char *semname="/semname";
+   sem1 = sem_open(semname,O_CREAT);//|O_EXCL);
    sem_post(sem1);
     char* tmp=NULL;
     char* newpar[NN];
@@ -75,7 +79,6 @@ for(;;) {
         pid_t testpid;
         testpid = fork();
              if(testpid==0) {
-                   //  sem_wait(&sem1);
                      sem_wait(sem1);
                      int fd2 = open("UPdemLOG.txt",O_CREAT|O_RDWR,S_IRWXU);
                      lseek(fd2, 0, SEEK_END);
@@ -87,14 +90,11 @@ for(;;) {
                      lseek(fd3, 0, SEEK_END);
                      close(1);
                      dup2(fd3,1);
-                    // sem_post(&sem1);
-                     sem_post(sem1);
+                    // sem_post(sem1);
                      execve(newpar[0], newpar,NULL);
               }
               if(testpid > 0) {
                      flag = 0;
-                     int status=0;
-                     wait(&status);
               }
 
       for(int i=0;i<NN;i++){
